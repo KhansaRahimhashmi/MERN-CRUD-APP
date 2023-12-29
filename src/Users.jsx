@@ -27,8 +27,8 @@ function Users() {
                 <td>{user.Email}</td>
                 <td>{user.Age}</td>
                 <td>
-                  <button>Edit</button>
-                  <button>Delete</button>
+                <Link to="/update" className='btn btn-success'> Update</Link>
+                  <button className='btn btn-success' style={{ marginLeft: '8px' }}>Delete</button>
                 </td>
               </tr>
             ))}
